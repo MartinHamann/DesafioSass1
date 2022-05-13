@@ -1,11 +1,11 @@
 {
-  "name": "clase_sass",
+  "name": "Tercera entrega proyecto final",
   "version": "1.0.0",
-  "description": "",
+  "description": "Pagina web de la Revista de informacion Agropecuaria Campo para todos",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "https://github.com/MartinHamann/",
   "license": "ISC"
 }

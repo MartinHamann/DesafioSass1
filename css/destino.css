@@ -11125,16 +11125,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.titulos {
-  text-align: center;
-  text-decoration: underline rgb(0, 0, 0);
-  font-size: 20px;
-}
-
-.border {
-  border: solid 1px black;
-}
-
 body {
   width: 100%;
   height: 100vh;
@@ -11144,367 +11134,54 @@ body {
   max-height: 35rem;
 }
 
-@media (max-width: 480px) {
-  #noticias, #galeriaDeFotos, header, nav, aside, footer {
-    padding: 10px;
-  }
-
-  h1, .h1 {
-    font-size: 3rem;
-  }
-
-  .gradienteLineal {
-    background: linear-gradient(blue, rgb(129, 158, 251), blue, rgb(129, 158, 251), blue);
-  }
-
-  span {
-    background: linear-gradient(90deg, blue, rgb(129, 158, 251), blue);
-    margin: 5px;
-    padding: 10px 25px;
-    text-align: center;
-    color: black;
-    font-weight: bold;
-  }
-
-  span:hover {
-    opacity: 0.5;
-    cursor: pointer;
-  }
-
-  .transicion {
-    transition: width 1s, height 1s;
-  }
-
-  .transicion:hover {
-    width: 30px;
-    height: 30px;
-  }
-
-  section {
-    text-align: center;
-  }
-
-  article {
-    background-color: white;
-    border-radius: 4px;
-    margin: 5px;
-    padding: 7px;
-    text-align: center;
-    width: 100%;
-  }
-
-  .articulo {
-    width: 100px;
-  }
-
-  .developer {
-    text-align: right;
-    font-size: x-small;
-  }
-
-  /* GRID POR AREAS MOBILE */
-  #grid-area {
-    display: grid;
-    grid-template-areas: "header" "menu" "noticias" "publicidad" "galeriaDeFotos" "footer";
-    grid-template-columns: auto auto auto;
-    grid-template-rows: 1fr 3fr 3fr 1fr;
-    /* ESPACIOS */
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
-  }
-
-  /* AREAS */
-  header {
-    grid-area: header;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-content: center;
-    padding-top: 20px;
-  }
-
-  footer {
-    grid-area: footer;
-  }
-
-  #noticias {
-    grid-area: noticias;
-    display: flex;
-    background-color: blue;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #galeriaDeFotos {
-    grid-area: galeriaDeFotos;
-  }
-
-  #redesSociales {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    width: 100%;
-    padding-top: 5px;
-    justify-content: space-evenly;
-  }
-
-  nav {
-    grid-area: menu;
-    display: flex;
-    flex-flow: column nowrap;
-    flex-direction: column;
-  }
-
-  aside {
-    grid-area: publicidad;
-  }
+.cajaNoticias {
+  border: solid 1px rgb(96, 131, 247);
+  border-radius: 30px;
+  background: linear-gradient(to right, rgba(0, 60, 255, 0), rgb(96, 131, 247), rgba(0, 60, 255, 0));
 }
-@media (min-width: 481px) and (max-width: 1023px) {
-  #noticias, #galeriaDeFotos, header, nav, aside, footer {
-    padding: 10px;
-  }
 
-  h1, .h1 {
-    font-size: 3rem;
-  }
-
-  .gradienteLineal {
-    background: linear-gradient(blue, rgb(129, 158, 251), blue, rgb(129, 158, 251), blue);
-  }
-
-  span {
-    display: flex;
-    background: linear-gradient(90deg, blue, rgb(129, 158, 251), blue);
-    margin: 10px;
-    padding: 10px 25px;
-    text-align: center;
-    color: black;
-    justify-content: center;
-    font-weight: bold;
-  }
-
-  span:hover {
-    opacity: 0.5;
-    cursor: pointer;
-  }
-
-  .transicion {
-    transition: width 1s, height 1s;
-  }
-
-  .transicion:hover {
-    width: 30px;
-    height: 30px;
-  }
-
-  section {
-    text-align: center;
-  }
-
-  article {
-    background-color: white;
-    border-radius: 4px;
-    margin: 5px;
-    padding: 7px;
-    text-align: center;
-    width: 100%;
-  }
-
-  .articulo {
-    width: 100px;
-  }
-
-  .developer {
-    text-align: right;
-    font-size: x-small;
-  }
-
-  /* GRIDS POR AREAS */
-  #grid-area {
-    display: grid;
-    /* ESTRUCTURA GRID TABLET */
-    grid-template-areas: "header" "menu " "noticias" "publicidad" "galeriaDeFotos" "footer";
-    grid-template-columns: auto auto auto;
-    grid-template-rows: 1fr 3fr 3fr 1fr;
-    /* ESPACIOS */
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
-  }
-
-  /* AREAS */
-  header {
-    grid-area: header;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-content: center;
-    padding-top: 20px;
-  }
-
-  footer {
-    grid-area: footer;
-  }
-
-  #noticias {
-    grid-area: noticias;
-    display: flex;
-    background-color: blue;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #galeriaDeFotos {
-    grid-area: galeriaDeFotos;
-  }
-
-  #redesSociales {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    width: 100%;
-    padding-top: 5px;
-    justify-content: space-evenly;
-  }
-
-  nav {
-    grid-area: menu;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-evenly;
-  }
-
-  aside {
-    grid-area: publicidad;
-    justify-content: center;
-    height: fit-content;
-    padding: 3px;
-  }
+.titulosPrincipales {
+  text-align: center;
+  text-decoration: underline black;
+  font-size: 35px;
+  font-weight: bolder;
 }
-@media (min-width: 1024px) {
-  #noticias, #galeriaDeFotos, header, nav, aside, footer {
-    padding: 10px;
-  }
 
-  h1, .h1 {
-    font-size: 3rem;
-  }
+.titulosSecundarios {
+  text-align: center;
+  text-decoration: underline black;
+  font-size: 25px;
+  font-weight: bold;
+}
 
-  .gradienteLineal {
-    background: linear-gradient(blue, rgb(129, 158, 251), blue, rgb(129, 158, 251), blue);
-  }
+.alineadoTextos {
+  text-align: justify;
+  font-weight: bold;
+}
 
-  span {
-    background: linear-gradient(90deg, blue, rgb(129, 158, 251), blue);
-    margin: 10px;
-    padding: 10px 25px;
-    text-align: center;
-    color: black;
-    font-weight: bold;
-  }
+header, nav, aside, footer {
+  padding: 10px;
+}
 
-  span:hover {
-    opacity: 0.5;
-    cursor: pointer;
-  }
+header {
+  grid-area: header;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  padding-top: 12px;
+}
 
-  .transicion {
-    transition: width 1s, height 1s;
-  }
+section {
+  text-align: center;
+}
 
-  .transicion:hover {
-    width: 30px;
-    height: 30px;
-  }
-
-  section {
-    text-align: center;
-  }
-
-  article {
-    background-color: white;
-    border-radius: 4px;
-    margin: 5px;
-    padding: 7px;
-    text-align: center;
-    width: 100%;
-  }
-
-  .articulo {
-    width: 100px;
-  }
-
-  .developer {
-    text-align: right;
-    font-size: x-small;
-  }
-
-  .publicidad {
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-  }
-
-  /* GRIDS POR AREAS */
-  #grid-area {
-    display: grid;
-    /* ESTRUCTURA GRID DESKTOP */
-    grid-template-areas: "header header" "menu menu" "noticias publicidad" "galeriaDeFotos galeriaDeFotos" "footer footer";
-    grid-template-columns: 3fr 1fr;
-    grid-template-rows: 1fr 3fr 3fr 1fr;
-    /* ESPACIOS */
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
-  }
-
-  /* AREAS */
-  header {
-    grid-area: header;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-content: center;
-    padding-top: 12px;
-  }
-
-  footer {
-    grid-area: footer;
-  }
-
-  #noticias {
-    grid-area: noticias;
-    display: flex;
-    background-color: blue;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #galeriaDeFotos {
-    grid-area: galeriaDeFotos;
-  }
-
-  #redesSociales {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    width: 100%;
-    padding-top: 5px;
-    justify-content: space-evenly;
-  }
-
-  nav {
-    grid-area: menu;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-evenly;
-    margin: 2px;
-  }
-
-  aside {
-    grid-area: publicidad;
-    justify-content: center;
-    object-fit: fill;
-    padding: 1px;
-  }
+article {
+  background-color: white;
+  border-radius: 4px;
+  margin: 5px;
+  padding: 7px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=destino.css.map */

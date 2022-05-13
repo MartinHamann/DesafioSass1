@@ -1,10 +1,19 @@
-.titulos {
-    text-align: center;
-    text-decoration: underline rgb(0, 0, 0);
-    font-size: 20px;
-}
-.border {
-    border: solid 1px black;
+//*VARIABLES*//
+$colorPrincipal: rgb(96, 131, 247);
+$colorSecundario: black;
+
+//*MIXINS*//
+@mixin formatoBordes {
+    border: solid 1px $colorPrincipal;
+    border-radius: 30px;
 }
 
-$colorPrincipal: blue;
+@mixin formatoTitulos {
+    text-align: center;
+    text-decoration: underline $colorSecundario ;
+}
+
+@mixin formatoTextos {
+    text-align: justify;
+
+}
