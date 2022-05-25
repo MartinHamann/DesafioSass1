@@ -37,6 +37,7 @@ body {
 .alineadoTextos{
     @include formatoTextos;
     font-weight: bold;
+    padding: 8px;
 }
 //* ESTILOS DE SELECTORES DE TIPO *//
 header, nav, aside, footer {

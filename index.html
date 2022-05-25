@@ -1,170 +1,167 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- SEO -->
-    <meta name="keywords" content="campo, agropecuario, ganaderia, noticias, revista">
-    <meta name="description" content="Revista Campo para Todos, la mas completa revista agropecuaria y ganadera del noroeste argentino desde 1996">
-    <!-- FUENTE (FONT TYPE)-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300&display=swap" rel="stylesheet">
-        <title>Revista Campo para todos</title>
-    <!--HOJA DE ESTILOS-->
-    <link rel="stylesheet" href="css/destino.css">
-    <!--FAVICON-->
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-</head>
-<body>
-    <main>
-      <!--LOGO PORTADA-->
-        <header class="container-fluid">    
-            <img src="images/revistalogo.png" width="58%vw" alt="logo">
-        </header>
-        <!--NAVBAR-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="pages/noticias.html">Noticias</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="pages/revista.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Revista
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="pages/revista.html">Edición Marzo</a></li>
-                        <li><a class="dropdown-item" href="pages/revista.html">Edición Febrero</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="pages/revista.html">Ver todas las ediciones</a></li>
-                    </ul>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="pages/quienes_somos.html">Quienes somos</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="pages/contacto.html">Contacto</a>
-                    </li>
-                </ul>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
-                </div>
-            </div>
-        </nav>
-        <br>
-        <section class="container">
-            <div class="row bg-dark text-white"><h1 class="titulosPrincipales">Noticias recientes</h1>
-            </div>
-        <br>
-        </section>
-        <section class="container-xxl">
-            <div class="row">
-              <!--NOTICIAS RECIENTES-->
-                <div class="col-lg-9 col-sm-12">
-                    <article class="col cajaNoticias">
-                        <h2 class="titulosSecundarios">Noticia 1</h2>
-                        <p class="alineadoTextos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit fugiat blanditiis hic nihil laudantium quod aspernatur nemo maiores, voluptas aut delectus eaque recusandae assumenda tempora natus molestiae ratione vitae commodi.
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis, perspiciatis! Veniam magnam repellendus illum perspiciatis quod maiores a, saepe vitae aliquam molestias aspernatur maxime vero sed vel dolorum voluptate laboriosam.
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, commodi. Odio consectetur obcaecati alias illum, at iusto velit consequatur natus saepe nesciunt dolorem molestias expedita nisi officia quidem asperiores aspernatur.</p>
-                    </article>
-                    <article class="col cajaNoticias">
-                        <h2 class="titulosSecundarios">Noticia 1</h2>
-                        <p class="alineadoTextos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit fugiat blanditiis hic nihil laudantium quod aspernatur nemo maiores, voluptas aut delectus eaque recusandae assumenda tempora natus molestiae ratione vitae commodi.
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis, perspiciatis! Veniam magnam repellendus illum perspiciatis quod maiores a, saepe vitae aliquam molestias aspernatur maxime vero sed vel dolorum voluptate laboriosam. 
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, commodi. Odio consectetur obcaecati alias illum, at iusto velit consequatur natus saepe nesciunt dolorem molestias expedita nisi officia quidem asperiores aspernatur.</p>
-                    </article>
-                </div>
-                <!--PUBLICIDAD-->
-                <div class="col-lg-3 col-sm-12">
-                    <aside class="col"> <img src="images/publicidad.jpeg" width="100% content-box" alt="Espacio publicitario"></aside>
-                </div>
-            </div>
-        </section>
-        <br>
-        <section class="container">
-            <div class="row">
-              <!--CAROUSEL-->
-                <div class="carousel-inner">
-                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner">
-                          <div class="carousel-item active" data-bs-interval="1000">
-                            <img src="images/Webp.net-resizeimage (1).jpg" class="d-block w-100" alt="Encuentro biologicos tandil">
-                            <div class="carousel-caption d-none d-md-block">
-                              <h5 class="fw-bold">Producción con biológicos</h5>
-                              <p class="fw-bold">Encuentro sobre producción con biológicos en soja, maíz y girasol.</p>
-                            </div>  
-                          </div>
-                          <div class="carousel-item" data-bs-interval="2000">
-                            <img src="images/Webp.net-resizeimage (2).jpg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                              <h5 class="fw-bold">Fumigación con herbicidas</h5>
-                              <p class="fw-bold">Diclorofenoxiácetico (2,4D) Aplicacion y uso de formulaciones</p>
-                            </div>
-                          </div>
-                          <div class="carousel-item">
-                            <img src="images/Webp.net-resizeimage.jpg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                              <h5 class="fw-bold">Sostenibilidad en Expoagro</h5>
-                              <p class="fw-bold">Biosoluciones, inoculantes, protección de cultivos y un modelo de innovación abierta para el crecimiento sostenible.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Anterior</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Siguiente</span>
-                        </button>
-                      </div>
-                </div>
-            </div>
-         </section>
-    </main>
-    <br>
-    <!--FOOTER-->
-    <footer class="bg-dark text-center text-white">
-        <div class="container p-4 pb-0">
-          <!--REDES SOCIALES -->
-          <section class="mb-4">
-            <!-- Facebook -->
-            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/" target="blank role="button"
-              >
-            <img src="https://cdn-icons-png.flaticon.com/512/123/123717.png" alt="Facebook" style: width="20px"></a>
-      
-            <!-- Twitter -->
-            <a class="btn btn-outline-light btn-floating m-1" href="https://www.twitter.com/" target="blank role="button"
-              >
-            <img src="https://cdn-icons-png.flaticon.com/512/60/60580.png" alt="Twitter" style: width="20px"></a>
-            <!-- Instagram -->
-            <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/" target="blank" role="button"
-              >
-            <img src="https://www.pngkey.com/png/full/1-13374_instagram-icon-new-black-background-vector-logo-instagram.png" alt="Instagram" style: width="20px"></a>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- SEO -->
+      <meta name="keywords" content="campo, agropecuario, ganaderia, noticias, revista">
+      <meta name="description" content="Revista Campo para Todos, la mas completa revista agropecuaria y ganadera del noroeste argentino desde 1996">
+      <!-- FUENTE (FONT TYPE)-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300&display=swap" rel="stylesheet">
+          <title>Revista Campo para todos</title>
+      <!--HOJA DE ESTILOS-->
+      <link rel="stylesheet" href="css/destino.css">
+      <!--FAVICON-->
+      <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+      <main>
+        <!--LOGO PORTADA-->
+          <header class="container-fluid">    
+              <img src="images/revistalogo.png" width="58%vw" alt="logo">
+          </header>
+          <!--NAVBAR-->
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="pages/noticias.html">Noticias</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="pages/revista.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Revista
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="pages/revista.html">Edición Marzo</a></li>
+                          <li><a class="dropdown-item" href="pages/revista.html">Edición Febrero</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="pages/revista.html">Ver todas las ediciones</a></li>
+                      </ul>
+                      </li>
+                      <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="pages/quienes_somos.html">Quienes somos</a>
+                      </li>
+                      <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="pages/contacto.html">Contacto</a>
+                      </li>
+                  </ul>
+                  </ul>
+                  <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Buscar</button>
+                  </form>
+                  </div>
+              </div>
+          </nav>
+          <br>
+          <section class="container">
+              <div class="row bg-dark text-white"><h1 class="titulosPrincipales">Noticias recientes</h1>
+              </div>
+          <br>
           </section>
-        </div>
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          <a class="text-white" href="https://mhwebd.org/">MHwebd.org</a>
-        </div>
-    </footer>
-    <!--SCRIPTS-->
-    <script src="js/bootstrap.js"></script>
-</body>
+          <section class="container-xxl">
+              <div class="row">
+                <!--NOTICIAS RECIENTES-->
+                  <div class="col-lg-9 col-sm-12">
+                      <article class="col cajaNoticias">
+                          <h2 class="titulosSecundarios">Bayer ratificó inversiones por 100 millones de dólares para potenciar la innovación, la digitalización y la sustentabilidad del agro argentino</h2><br>
+                          <p class="alineadoTextos">Las inversiones están focalizadas en los pilares de desarrollo de la compañía, innovación, digitalización y sustentabilidad, con el objetivo de contribuir y crear valor tanto para los productores como para la cadena del agro en Argentina frente al desafío de producir más y mejores alimentos para más personas, lo que permitirá potenciar el abastecimiento del mercado interno, sustituir importaciones y aumentar las exportaciones.<br> Una porción importante de este plan de inversiones está destinado a producir tecnologías cada vez más competitivas y ampliar la capacidad de procesamiento de semillas de maíz de la Planta de María Eugenia, considerada la más grande a nivel mundial.<br> Precisamente en Expoagro se exhibe la tecnología VTPRO4, lanzada el año pasado, a lo que se suma el lanzamiento de Trecepta junto con la nueva generación de híbridos de Dekalb. Esta tecnología, la última innovación en genética y biotecnología presenta un amplio control sobre las principales plagas de lepidópteros que afectan el maíz y otorga máxima flexibilidad en el manejo de malezas gracias a la tecnología RR2. Sin dudas, estas innovaciones en materia de germoplasma y tecnología les permitirán a los productores aumentar los rendimientos haciendo un uso más eficiente y sustentable de los recursos.</p>
+                      </article>
+                      <article class="col cajaNoticias">
+                          <h2 class="titulosSecundarios">BASF presentó en Expoagro 2022 innovaciones que conectan protección de cultivos, semillas y soluciones digitales</h2><br>
+                          <p class="alineadoTextos">La división Soluciones para la Agricultura de BASF expuso, en Expoagro, lanzamientos que llegarán al mercado local próximamente y también novedades para el productor en las diferentes etapas del cultivo y su campaña, desde la planificación de la siembra hasta la cosecha.<br>
+                          BASF presentó tres nuevos productos para la Protección de Cultivos que estarán próximamente en el mercado. En el corto plazo, será lanzado Voraxor®, un nuevo herbicida presiembra, con un trabajo de investigación y desarrollo de seis años que mostró ser una herramienta muy versátil para el productor argentino. Luego, en el mediano plazo estarán disponibles Melyra®, un fungicida altamente efectivo para administrar resistencias y aumentar el rendimiento de una manera sostenible, que incorpora una innovadora molécula; y en control de plagas la novedad es el nuevo insecticida para soja y maíz Davantor®,  con un nuevo modo de acción superador para el manejo anti-resistencias.</p>
+                      </article>
+                  </div>
+                  <!--PUBLICIDAD-->
+                  <div class="col-lg-3 col-sm-12">
+                      <aside class="col"> <img src="images/publicidad.jpeg" width="100% content-box" alt="Espacio publicitario"></aside>
+                  </div>
+              </div>
+          </section>
+          <br>
+          <section class="container">
+              <div class="row">
+                <!--CAROUSEL-->
+                  <div class="carousel-inner">
+                      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="1000">
+                              <img src="images/Webp.net-resizeimage (1).jpg" class="d-block w-100" alt="Encuentro biologicos tandil">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h5 class="fw-bold">Producción con biológicos</h5>
+                                <p class="fw-bold">Encuentro sobre producción con biológicos en soja, maíz y girasol.</p>
+                              </div>  
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                              <img src="images/Webp.net-resizeimage (2).jpg" class="d-block w-100" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h5 class="fw-bold">Fumigación con herbicidas</h5>
+                                <p class="fw-bold">Diclorofenoxiácetico (2,4D) Aplicacion y uso de formulaciones</p>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="images/Webp.net-resizeimage.jpg" class="d-block w-100" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h5 class="fw-bold">Sostenibilidad en Expoagro</h5>
+                                <p class="fw-bold">Biosoluciones, inoculantes, protección de cultivos y un modelo de innovación abierta para el crecimiento sostenible.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Siguiente</span>
+                          </button>
+                        </div>
+                  </div>
+              </div>
+          </section>
+      </main>
+      <br>
+      <!--FOOTER-->
+      <footer class="bg-dark text-center text-white">
+          <div class="container p-4 pb-0">
+            <!--REDES SOCIALES -->
+            <section class="mb-4">
+              <!-- Facebook -->
+              <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/" target="blank" role="button"
+                >
+              <img src="https://cdn-icons-png.flaticon.com/512/123/123717.png" alt="Facebook" style: width="20px"></a>
+        
+              <!-- Twitter -->
+              <a class="btn btn-outline-light btn-floating m-1" href="https://www.twitter.com/" target="blank" role="button"
+                >
+              <img src="https://cdn-icons-png.flaticon.com/512/60/60580.png" alt="Twitter" style: width="20px"></a>
+              <!-- Instagram -->
+              <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/" target="blank" role="button"
+                >
+              <img src="https://www.pngkey.com/png/full/1-13374_instagram-icon-new-black-background-vector-logo-instagram.png" alt="Instagram" style: width="20px"></a>
+            </section>
+          </div>
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            <a class="text-white" href="https://mhwebd.org/">MHwebd.org</a>
+          </div>
+      </footer>
+      <!--SCRIPTS-->
+      <script src="js/bootstrap.js"></script>
+  </body>
 </html>
